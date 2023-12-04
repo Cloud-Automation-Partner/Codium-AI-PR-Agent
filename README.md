@@ -41,11 +41,11 @@ This workflow is triggered when a pull request is opened, synchronized, or reope
 
 ## OpenAI API Token
 
-To securely use Codium AI in your workflow, add your Codium AI API token as a secret in your GitHub repository.
+To securely use Codium AI in your workflow, add your OpenAI API Key as a secret in your GitHub repository.
 
 1. Go to your repository on GitHub.
 2. Navigate to `Settings` > `Secrets` > `New repository secret`.
-3. Name the secret `CODIUM_API_TOKEN` and paste your Codium AI API token.
+3. Name the secret `OPENAI_KEY` and paste your OpenAI API Key.
 
 ```
 Name = OPENAI_KEY
